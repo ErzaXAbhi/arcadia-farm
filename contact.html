@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/svg/logo-color.svg" />
+    <title>Arcadia Farm | Home</title>
+  </head>
+  <body id="home">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/png/logo-no-background.png" alt="" width="225" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link btn btn-outline-light fw-semibold px-4 mx-4"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header py-7 vh-100">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col-12 text-container">
+            <h1 class="display-2 text-white mt-3">Contact Information</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="contact bg-light pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form action="https://formspree.io/f/mrgvnzvq" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  name="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control form-control-lg"
+                  name="message"
+                  rows="6"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary text-white mt-3">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer mt-4 text-bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Arcadia Farm</h5>
+            <p>
+              Sonshiv (wada), <br />
+              Wada-Khardi Road, <br />
+              6km from Wada, <br />
+              Wada. Palghar: 421-303 <br />
+              Mob: 8600074633 <br />
+              Email: arcadiafarm@gmail.com
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="#home" class="text-secondary">Home</a></li>
+              <li><a href="contact.html" class="text-secondary">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Connect</h5>
+            <div class="d-flex gap-3">
+              <a href="#"><i class="fab fa-facebook fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-linkedin fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-3x text-white"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
